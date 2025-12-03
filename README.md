@@ -1,6 +1,6 @@
-# mcp-wordpress
+# mcp-wp-abilities
 
-MCP server for WordPress 6.9+ Abilities API. Dynamically exposes WordPress abilities as AI-accessible tools.
+MCP server for the WordPress 6.9+ Abilities API. Dynamically discovers and exposes WordPress abilities as AI-accessible tools.
 
 ## What is this?
 
@@ -23,7 +23,7 @@ WordPress 6.9 introduced the [Abilities API](https://developer.wordpress.org/new
 ## Installation
 
 ```bash
-npm install -g mcp-wordpress
+npm install -g mcp-wp-abilities
 ```
 
 ## Configuration
@@ -43,9 +43,9 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
 ```json
 {
   "mcpServers": {
-    "wordpress": {
+    "wp-abilities": {
       "command": "npx",
-      "args": ["-y", "mcp-wordpress"],
+      "args": ["-y", "mcp-wp-abilities"],
       "env": {
         "WORDPRESS_URL": "https://your-site.com",
         "WORDPRESS_USERNAME": "your-username",
@@ -59,11 +59,11 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
 ### Claude Code
 
 ```bash
-claude mcp add wordpress \
+claude mcp add wp-abilities \
   -e WORDPRESS_URL="https://your-site.com" \
   -e WORDPRESS_USERNAME="your-username" \
   -e WORDPRESS_APP_PASSWORD="your-app-password" \
-  -- npx -y mcp-wordpress
+  -- npx -y mcp-wp-abilities
 ```
 
 ## Available Tools
