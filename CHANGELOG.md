@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [1.0.1] - 2025-12-03
+
+### Changed
+
+- Renamed package from mcp-wordpress to mcp-wp-abilities for clarity
+- Updated repository URLs after rename
+
 ## [1.0.0] - 2025-12-03
 
 ### Added
