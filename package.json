@@ -1,6 +1,6 @@
 {
   "name": "mcp-wp-abilities",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for WordPress 6.9+ Abilities API - dynamically exposes WordPress abilities as AI-accessible tools",
   "main": "dist/index.js",
   "bin": {
