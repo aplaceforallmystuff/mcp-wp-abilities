@@ -25,11 +25,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aplaceforallmystuff/mcp-wordpress.git"
+    "url": "git+https://github.com/aplaceforallmystuff/mcp-wp-abilities.git"
   },
-  "homepage": "https://jimchristian.net",
+  "homepage": "https://github.com/aplaceforallmystuff/mcp-wp-abilities",
   "bugs": {
-    "url": "https://github.com/aplaceforallmystuff/mcp-wordpress/issues"
+    "url": "https://github.com/aplaceforallmystuff/mcp-wp-abilities/issues"
   },
   "engines": {
     "node": ">=18.0.0"
