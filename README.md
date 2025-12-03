@@ -1,5 +1,8 @@
 # mcp-wp-abilities
 
+[![npm version](https://img.shields.io/npm/v/mcp-wp-abilities.svg)](https://www.npmjs.com/package/mcp-wp-abilities)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 MCP server for the WordPress 6.9+ Abilities API. Dynamically discovers and exposes WordPress abilities as AI-accessible tools.
 
 ## What is this?
@@ -156,10 +159,21 @@ add_action( 'wp_abilities_api_init', function() {
 - Verify abilities are registered with `show_in_rest: true`
 - Check user has permission to access the abilities
 
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for release history.
+
 ## License
 
 MIT
 
-## Author
+## Links
 
-[Jim Christian](https://jimchristian.net)
+- [npm package](https://www.npmjs.com/package/mcp-wp-abilities)
+- [GitHub repository](https://github.com/aplaceforallmystuff/mcp-wp-abilities)
+- [WordPress Abilities API documentation](https://developer.wordpress.org/news/2025/11/introducing-the-wordpress-abilities-api/)
+- [Author: Jim Christian](https://jimchristian.net)
