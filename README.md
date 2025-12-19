@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/mcp-wp-abilities.svg)](https://www.npmjs.com/package/mcp-wp-abilities)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![MCP](https://img.shields.io/badge/MCP-Compatible-blue)](https://modelcontextprotocol.io)
 
 MCP server for the WordPress 6.9+ Abilities API. Dynamically discovers and exposes WordPress abilities as AI-accessible tools.
 
