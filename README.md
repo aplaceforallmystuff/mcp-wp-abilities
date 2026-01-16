@@ -5,7 +5,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MCP](https://img.shields.io/badge/MCP-Compatible-blue)](https://modelcontextprotocol.io)
 
-MCP server for the WordPress 6.9+ Abilities API. Dynamically discovers and exposes WordPress abilities as AI-accessible tools.
+MCP server for the WordPress 6.9+ Abilities API.
+
+![Architecture](docs/images/architecture-diagram.png) Dynamically discovers and exposes WordPress abilities as AI-accessible tools.
 
 ## What is this?
 
