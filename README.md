@@ -163,10 +163,6 @@ add_action( 'wp_abilities_api_init', function() {
 - Verify abilities are registered with `show_in_rest: true`
 - Check user has permission to access the abilities
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for release history.
