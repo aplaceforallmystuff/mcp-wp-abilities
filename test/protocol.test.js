@@ -125,7 +125,7 @@ test("initializes and maps WordPress abilities through the MCP protocol", async 
 
   assert.deepEqual(client.getServerVersion(), {
     name: "mcp-wp-abilities",
-    version: "1.0.1",
+    version: "1.0.2",
   });
   assert.deepEqual(client.getServerCapabilities(), { tools: {} });
 

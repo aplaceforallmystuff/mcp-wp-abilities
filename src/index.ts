@@ -218,7 +218,7 @@ function convertInputSchema(inputSchema: object | unknown[]): McpInputSchema {
 const server = new Server(
   {
     name: "mcp-wp-abilities",
-    version: "1.0.1",
+    version: "1.0.2",
   },
   {
     capabilities: {

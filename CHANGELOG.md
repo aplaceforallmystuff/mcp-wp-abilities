@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [1.0.2] - 2026-11-16
+
 ### Security
 
 - Updated `@modelcontextprotocol/sdk` from `^1.29.0` to `^1.32.2`, with updates to its locked transitive dependencies (including `hono`, `@hono/node-server`, `body-parser`, `proxy-addr`, `ip-address`, `qs` and `zod`)
